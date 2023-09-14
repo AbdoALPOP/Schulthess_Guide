@@ -1,0 +1,60 @@
+site_name: Schulthess
+docs_dir: './source/en'
+site_dir: './docs/en'
+
+theme:
+  name: material
+  #custom_dir: '../../overrides/'                  # This is where the customization of the theme lives
+  #logo: assets/images/logo.svg                    # The logo is shared by all languages
+  #favicon: assets/images/favicon.ico              # The favicon is shared by all languages
+  language: en 
+  features:
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  # Auto Dark and Light Mode  
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Open Sans
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: nl
+
+plugins:
+  - search:                                         
+      lang: en                                      # Set language for search
+nav:
+- Welcome: index.md
