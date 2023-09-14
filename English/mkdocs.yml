@@ -1,10 +1,10 @@
 site_name: Schulthess
-docs_dir: 'docs/de'
-#site_dir: 'Schulthess/comp/de'
+#docs_dir: 'English/docs'
+#site_dir: 'comp/en'
 
 theme:
   name: material
-  language: de
+  language: en 
   features:
     - navigation.footer
     - navigation.instant
@@ -49,9 +49,8 @@ extra:
     - name: Deutsch
       link: /de/
       lang: de
-
 #plugins:
 #  - search:                                         
-#      lang: de                                      # Set language for search
+#      lang: en                                      # Set language for search
 nav:
 - Welcome: index.md
