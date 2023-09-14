@@ -1,6 +1,6 @@
 site_name: Schulthess
-docs_dir: 'Schulthess/docs/en'
-site_dir: 'Schulthess/comp/en'
+docs_dir: '../../docs/en'
+#site_dir: 'Schulthess/comp/en'
 
 theme:
   name: material
@@ -44,12 +44,11 @@ markdown_extensions:
 extra:
   alternate:
     - name: English
-      link: /en/ 
+      link: /en/ # (1)!
       lang: en
     - name: Deutsch
       link: /de/
       lang: de
-
 #plugins:
 #  - search:                                         
 #      lang: en                                      # Set language for search
