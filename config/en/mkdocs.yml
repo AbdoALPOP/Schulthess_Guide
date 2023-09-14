@@ -1,12 +1,9 @@
 site_name: Schulthess
-docs_dir: './source/en'
-site_dir: './docs/en'
+docs_dir: 'Schulthess/docs/en'
+site_dir: 'Schulthess/comp/en'
 
 theme:
   name: material
-  #custom_dir: '../../overrides/'                  # This is where the customization of the theme lives
-  #logo: assets/images/logo.svg                    # The logo is shared by all languages
-  #favicon: assets/images/favicon.ico              # The favicon is shared by all languages
   language: en 
   features:
     - navigation.footer
@@ -51,10 +48,10 @@ extra:
       lang: en
     - name: Deutsch
       link: /de/
-      lang: nl
+      lang: de
 
-plugins:
-  - search:                                         
-      lang: en                                      # Set language for search
+#plugins:
+#  - search:                                         
+#      lang: en                                      # Set language for search
 nav:
 - Welcome: index.md
