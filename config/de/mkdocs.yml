@@ -1,5 +1,5 @@
 site_name: Schulthess
-docs_dir: '../../docs/de'
+docs_dir: 'docs/de'
 #site_dir: 'Schulthess/comp/de'
 
 theme:
