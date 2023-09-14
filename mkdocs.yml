@@ -1,7 +1,4 @@
 site_name: Schulthess
-#docs_dir: 'English/docs'
-#site_dir: 'comp/en'
-
 theme:
   name: material
   language: en 
@@ -53,4 +50,9 @@ extra:
 #  - search:                                         
 #      lang: en                                      # Set language for search
 nav:
-- Welcome: index.md
+- English:
+    - 'Sign In': './en/index.md'
+    #  - 'Usage': 'en/usage.md'
+- Deutsch:
+    - 'Inloggen': './de/index.md'
+    #- 'Uso': 'es/uso.md'
