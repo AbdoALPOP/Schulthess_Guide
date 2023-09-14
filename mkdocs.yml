@@ -1,7 +1,7 @@
 site_name: Schulthess
-
 theme:
   name: material
+  language: en 
   features:
     - navigation.footer
     - navigation.instant
@@ -38,3 +38,21 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra:
+  alternate:
+    - name: English
+      link: /en/ # (1)!
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+#plugins:
+#  - search:                                         
+#      lang: en                                      # Set language for search
+nav:
+- English:
+    - 'Sign In': './en/index.md'
+    #  - 'Usage': 'en/usage.md'
+- Deutsch:
+    - 'Inloggen': './de/index.md'
+    #- 'Uso': 'es/uso.md'
